@@ -1,4 +1,4 @@
-package com.ashokit;
+package in.com;
 
 class SbRestAppApplicationTests {
 

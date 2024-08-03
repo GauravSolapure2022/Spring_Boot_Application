@@ -1,4 +1,4 @@
-package in.ashokit.rest;
+package in.com.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,7 +18,7 @@ public class WelcomeRestController {
 	@GetMapping
 	public String welcomeMsg() {
 		logger.info("***** welcomeMsg() execution start *****");
-		String msg = "Welcome to Ashok IT - Software Training Institute (HYD) ..!!";
+		String msg = "Welcome to Codetech Carporate training and placement center ..!!";
 		logger.info("***** welcomeMsg() execution end *****");
 		return msg;
 	}
@@ -26,7 +26,7 @@ public class WelcomeRestController {
 	@GetMapping("/greet")
 	public String greetMsg() {
 		logger.info("***** greetMsg() execution start *****");
-		String msg = "Good Morning, Welcome to Ashok IT";
+		String msg = "Good Morning, Welcome to Codetech";
 		logger.info("***** greetMsg() execution end *****");
 		return msg;
 	}
